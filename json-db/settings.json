@@ -1,4 +1,7 @@
 {
+	"default-background-image" : "",
+	"default-syle" : "",
+	
 	"mechanic-rules" : {
 		"lives" : {
 			"default-bank-size": 10,
