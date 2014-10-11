@@ -14,5 +14,13 @@ If people like it we could build other readers in for a price. We would need to 
 
 Maybe we could put a lets see if we could get Morgan Freeman to read our Riddles Button and accept the charge but not process it untill he actually agrees. So People are not only saying they want it but that they would buy it. If there was enough money promised I bet we could get someone to notice. Or Maybe Leim Neison. He seems cool. Or we could have a voting match but with dollars! Could be fun if the app was popular enough.
 
-http://www.imdb.com/name/nm0191520/
+[Morgan Freemen](http://www.imdb.com/name/nm0000151 )
+[Peter Cullen (Optimus Prime!!!)](http://www.imdb.com/name/nm0191520/ )
+[Patrick Stewart!](http://www.imdb.com/name/nm0001772/)
+[Sean Connery!](http://www.imdb.com/name/nm0000125 )
+[Liam Neeson!](http://www.imdb.com/name/nm0000553/)
+[ Jim Dale ](https://www.google.com.tw/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CCQQFjAB&url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FJim_Dale&ei=XFY5VJbtD9fc8AWo4YGAAQ&usg=AFQjCNHrqbpVC9hybVSLhz6JtEhm1SyUbg)
+
+
+That be my dream team right there
 
