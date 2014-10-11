@@ -1,0 +1,17 @@
+{
+	"mechanic-rules" : {
+		"lives" : {
+			"default-bank-size": 10,
+			"replenish":10, 
+		},
+		"free-answer" : {
+			"default-bank-size": 3,
+			"replenish":1440
+		},
+		"hints": {
+		  "default-bank-size": 5,
+		  "replenish":20,
+		  
+		}
+	}
+}
