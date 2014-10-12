@@ -1,0 +1,23 @@
+.container-fluid{
+  padding: 0;
+}
+
+.btn:focus, .btn:active, .btn:active:focus,
+*:focus,*:active,*:active:focus {
+    outline: 0;
+}
+
+.navBar {
+  color: white;
+  background: blue;
+  line-height: 30px;
+  padding-left: 15px;
+}
+
+.riddlesView {
+  padding: 15px;
+}
+
+.riddlesView .riddleLine {
+  text-align: center;
+}
