@@ -1,13 +1,40 @@
 {
 	"r-1": {
+		"id": "r-1",
 		"answer" : "tommorow",
-		"riddle" : ["It's something you wait for",
-  		          "That never comes",
-  		          "It's something you must plan for",
-  		          "If you want to get anything done"],
+		"riddle" : ["It's something you wait for","That never comes", "It's something you must plan for", "If you want to get anything done"],
 		"hint" : "Think about how we measure our days or talk about something in the future",
 		"audio" : "Link to Google Storage of me saying the Riddle",
 		"back-ground-img" : ""
-		},
- 
-} 
+	},
+	"r-2": {
+		"id": "r-2",
+  	"answer" : "courage",
+  	"riddle" : ["It's something you find","By losing something else","But when you use it","You don't lose it"],
+    "hint" : ""
+  },
+  "r-3": {
+		"id": "r-3",
+  	"answer" : "enemies",
+  	"riddle" : ["The less of these you have the better","But the more you do the more they find you","Not written in stone letter","With effort they change anew"],
+    "hint" : ""
+    },
+  "r-4" : {
+		"id": "r-4",
+  	"answer" : "diet",
+  	"riddle" : ["The further you go the more you limit","Some do for show some need the benefit","No matter how much you want it's hard to stay with it"],
+  	"hint": ""
+  	},
+  "r-5" : {
+		"id": "r-5",
+  	"answer" : "airport",
+  	"riddle" : ["A place you can come by yourself But rarely sit alone","A Cast system of class Everyone condones","No matter how much you hurry It won't get you home","Faster than planned we won't judge as you stand like a clone"],
+  	"hint": ""
+  	},
+  "r-6" : {
+		"id": "r-6",
+  	"answer" : "music",
+  	"riddle" : ["Something most people appreciate but don't know it's value.","Something most people want to create but few know how to","Something you consume without getting full","Something you that can change how you feel and touches the soul"],
+  	"hint": ""
+	}
+}
