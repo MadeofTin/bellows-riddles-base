@@ -9,15 +9,45 @@
 
 .navBar {
   color: white;
-  background: blue;
+  background: #428BCA;
   line-height: 30px;
-  padding-left: 15px;
+  padding: 0 10px;
 }
 
 .riddlesView {
-  padding: 15px;
+}
+
+.riddlesView .riddleStats {
+  border-bottom: 1px solid #428BCA;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.riddlesView .riddleStats .riddleStat {
+  float: right;
+  margin: 0 15px;
 }
 
 .riddlesView .riddleLine {
   text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+
+.riddlesView .answersList {
+  text-align: center;
+}
+
+.riddlesView .answersList .btn.riddleAnswer {
+  border: 1px solid #428BCA;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  line-height: 1;
+  color: #428BCA;
+}
+
+.riddlesView .answersList .btn.riddleAnswer:active {
+  background-color: #428BCA;
+  color: white;
 }

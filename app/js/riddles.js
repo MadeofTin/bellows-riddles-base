@@ -22,17 +22,16 @@ function shuffle(array) {
 var StartupScreen = React.createClass({
   render: function() {
     return (
-      <div className="startupScreen">
-        <h1 className="page-header">
-          {"Bellow's Riddles"}
-        </h1>
-        Starting up...
-        <div className="progress">
-          <div className="progress-bar progress-bar-striped active" style={{width: this.props.percentComplete+"%"}}>
-            <span className="sr-only">Starting up...</span>
+      <Screen>
+        <div className="startupScreen">
+          Starting up...
+          <div className="progress">
+            <div className="progress-bar progress-bar-striped active" style={{width: this.props.percentComplete+"%"}}>
+              <span className="sr-only">Starting up...</span>
+            </div>
           </div>
         </div>
-      </div>
+      </Screen>
     );
   }
 });
@@ -78,7 +77,7 @@ var AnswersList = React.createClass({
     var answers = this.props.answers.map(function(answer, index) {
       return (
         <button
-          className="riddleAnswer btn btn-link btn-sm"
+          className="riddleAnswer btn"
           onClick={this.handleAnswerClick.bind(this, answer)}
           key={"answer-list"+index}>
           {answer}
@@ -96,14 +95,16 @@ var AnswersList = React.createClass({
 var RiddlesScreen = React.createClass({
   getDefaultProps: function() {
     return {
-      riddles: {}
+      riddles: {},
+      onNoLivesLeft: function() {}
     }
   },
 
   getInitialState: function() {
     return {
       showRiddle: "r-1",
-      completedRiddles: {}
+      completedRiddles: {},
+      livesLeft: 3
     }
   },
 
@@ -121,7 +122,10 @@ var RiddlesScreen = React.createClass({
   },
 
   handleWrongAnswer: function(riddle) {
-    alert("wrong!")
+    if (this.state.livesLeft <= 0) {
+      this.props.onNoLivesLeft();
+    }
+    this.setState({livesLeft:this.state.livesLeft - 1});
   },
 
   render: function() {
@@ -142,8 +146,13 @@ var RiddlesScreen = React.createClass({
     return (
       <Screen>
         <div className="riddlesView">
-          <div className="riddleStats">
-            Riddles Remaining: {answers.length}
+          <div className="riddleStats clearfix">
+            <div className="riddleStat">
+              Riddles: <strong>{answers.length}</strong>
+            </div>
+            <div className="riddleStat">
+              Lives: <strong>{this.state.livesLeft}</strong>
+            </div>
           </div>
           <div className="riddleLines">
             {lines}
@@ -164,7 +173,8 @@ var RiddlesApp = React.createClass({
   getInitialState: function() {
     return {
       startupPercent: 0,
-      riddles: {}
+      riddles: {},
+      gameOver: false
     }
   },
 
@@ -175,6 +185,10 @@ var RiddlesApp = React.createClass({
     if (newPercent < 100) {
       window.setTimeout(this.simulateStartup, 30)
     }
+  },
+
+  handleNoLivesLeft: function() {
+    this.setState({gameOver: true});
   },
 
   componentDidMount: function() {
@@ -197,8 +211,10 @@ var RiddlesApp = React.createClass({
   render: function() {
     if (this.state.startupPercent < 100) {
       return <StartupScreen percentComplete={this.state.startupPercent}/>;
+    } else if (this.state.gameOver) {
+      return <Screen><h1>Game Over</h1></Screen>;
     } else {
-      return <RiddlesScreen riddles={this.state.riddles} />;
+      return <RiddlesScreen riddles={this.state.riddles} onNoLivesLeft={this.handleNoLivesLeft}/>;
     }
   }
 });
