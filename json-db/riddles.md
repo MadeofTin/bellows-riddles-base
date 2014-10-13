@@ -37,3 +37,4 @@ Notes on validation I could do to make sure my JSON is formated correctly
 - [ ] Validate JSON Format
 - [ ] JSON Lint (make it pretty...)
 - [ ] Make sure each riddle has each field and that each field has an acceptable value. Could be default, but it should exist.
+- [ ] Mode needs to connect to a real mode in the mode JSON file.
