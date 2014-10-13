@@ -19,7 +19,7 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
 - [ ] World View <sub><sup>*One step above world view*</sup></sub>
  - [ ] Choose a new mode
 - [ ] Level View [img](/assets/mockups/pngs/level.png)
-  - [ ] Riddle Basic Difficulty [img](/assets/mockups/pngs/riddle.png)
+  - [ ] Riddle Basic Difficulty ([doc](#)-[img](/assets/mockups/pngs/riddle.png)- [UX](/testing/ux-testing/answerbank/index.html)
     - [ ] Wrong Answer
     - [ ] Right Answer
   - [ ] Riddle - Auto Complete Difficulty
