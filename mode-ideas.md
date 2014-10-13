@@ -4,31 +4,48 @@
 
 ## Index
 
-#### Ready For Production
+#### Actively Producing
 
+| Gamemode    | Levels | Riddles |
+| ----------- | ------ | ------: |
+|  Basic      |  1     |   54    |
+
+
+Basic Mode
 
 #### Good Ideas
 
+***Check means I decided to work on it***
+
+- [ ] [ABC](#ABC)
+- [ ] [Scholar Mode](#Scholar-Mode)
 
 #### Wild Ponderings
 
 
+## Descriptions
 
+#### ABC
 
+There are 26 Riddles. One for each letter in the alphabet. There isn't a word bank. You just know that the first one starts with "A". You could have the levels progress by having it get more and more difficult somehow. Doesn't seem fun just to have one level in the series.
+
+#### Scholar Mode
+
+Use words like lexicon, conflaguration, omnibus, and other words that are not typically used by the normal person. This would have a level progression similar to basic mode, but the extra challenge is you would need to know what each of these words mean.
 
 
 ****
-### Pull over from Readme. Need to clean this up.
 
-ABC
+###  Pull over from Readme.  
+- [ ] Need to clean this up.
 
-There are 26 Riddles. One for each letter in the alphabet. There isn't a word bank. You just know that the first one starts with "A".
-Scholar Mode
 
-Use words like lexicon, conflaguration, omnibus, and other words that are not typically used by the normal person. This would have a level progression similar to basic mode, but the extra challenge is you would need to know what each of these words mean
+
+
 So Many Ways to Kill
 
 There are many uncessarly fancy words for killing someone or something. I think it could be fun to have a list based off of these. Patricide, Mariticide, defenistrate, etc... I could make a word bank or not. There is a limit to the number of these words already so maybe I would just make them look them up. If that was to hard then I could give them a bank. http://phrontistery.info/kill.html
+
 Rymezone
 
 The word would be used in the riddle itself, but left as a ____. So from context you would know what it rhymes with.
