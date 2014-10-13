@@ -5,8 +5,8 @@ Riddles are ordered in ID based on the order I wrote them.
 Following the pattern
 
 ```
-r-1 : Word
-r-2 : Word3
+r1 : Word
+r2 : Word3
 ```
 
 ### JSON Documentation
@@ -22,7 +22,7 @@ r-2 : Word3
 
 #### Implementation Notes
 
-*** Track completed Riddles, not completed riddles in a Level ***
+***Track completed Riddles, not completed riddles in a Level***
 
 If the mobile device only keeps track of which riddles he has answered instead of which riddles he has answered in a level. It would give me freedom to move around riddles to find the most effiecient balance. If I move a riddle into a level that was not previously solved it would just count as not being compleleted. It wouldn't hamper their progress in unlocking the next level. Once the next level is unlocked it should remain unlocked no matter what I do to the riddles inside.
 
