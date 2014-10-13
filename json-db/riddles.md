@@ -19,6 +19,17 @@ r2 : Word3
 	"back-ground-img" : # Overrides default background image if set
 ```
 
+##### Template Riddle
+
+```
+"r" :{
+  "id" : "r",
+  "mode" : "",
+  "answer" : "",
+  "riddle" : [""],
+  "hint" : "",
+```
+
 
 #### Implementation Notes
 
