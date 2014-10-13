@@ -7,12 +7,12 @@ It seems like you are sort of javascript implementing this so I found [this][htt
 
 You think it work so we could start with just an image and then move to an animated movie playing in the background. I'll put more about what kind of style I am looking for in the [branding.md](bellows-riddles-base/branding.md)
 
-
+https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/start-screen-needs-update.png
 ## Mockups index
 
 - [ ] Start Up screen
   - [ ] Up to date
-  - [ ] Need to update
+  - [ ] Need to update (link - [img](/assets/mockups/pngs/start-screen-needs-update.png))
   - [ ] Updating
 - [ ] Default Mode View [link](#default-mode-view) <sub><sup>*The normal screen you get to when you hit play*</sup></sub>
   - [ ] Level Completed
