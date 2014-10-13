@@ -43,4 +43,8 @@ If you download the app it actually changes as you move up the screen. Don't kno
 
 #### Riddle Basic Difficulty
 
-these are them docs
+
+| Image         | Description   |
+| ------------- | ------------- |
+| <img src="/assets/mockups/pngs/riddle.png"/>  | I think I have the basic layout how I would like it. If you have any other ideas ket me know. Your first question is probably why are the words on top? That is because I had this idea (Let me know how possible it would be on your end). I would like the User experiance to stay as close as it can for the different difficulty levels. So I thought it would be nice if you could start by also being able to type in text and it would filter out the words that don't match. This would happen dynamically as you type. (In web it makes more sense to me, but I don't know how using the iPhone Keyboard might change the way you can implement this.)  |
+
