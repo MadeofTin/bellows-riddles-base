@@ -5,13 +5,13 @@ But.... that is a lot more work than we need to at the moment. So, I Think doing
 
 It seems like you are sort of javascript implementing this so I found [this][http://stackoverflow.com/questions/13224037/mapping-areas-on-an-html5-video] that would explain how to do mapping over a video. (You probably already know a better way to do this though.. haha) The underlying video would not need to be interacted with so, the concern he brings would not be a big deal. But it means we could abstract out the world design as I get a better artist to do it and even move around where the levels are physically without needing to do more code. ***Do you think that would be worth the effort?***
 
-You think it work so we could start with just an image and then move to an animated movie playing in the background. I'll put more about what kind of style I am looking for in the [branding.md](bellows-riddles-base/branding.md)
+You think it work so we could start with just an image and then move to an animated movie playing in the background. I'll put more about what kind of style I am looking for in the [branding.md](/branding.md)
 
 https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/start-screen-needs-update.png
 ## Mockups index
 
 - [ ] Start Up screen
-  - [ ] Up to date
+  - [ ] Up to date (link - [img] (/assets/mockups/pngs/start-screen-uptodate.png)
   - [ ] Need to update (link - [img](/assets/mockups/pngs/start-screen-needs-update.png))
   - [ ] Updating
 - [ ] Default Mode View [link](#default-mode-view) <sub><sup>*The normal screen you get to when you hit play*</sup></sub>
