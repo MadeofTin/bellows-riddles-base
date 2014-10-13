@@ -11,9 +11,10 @@ It seems like you are sort of javascript implementation so I found [this](http:/
   - [ ] Up to date
   - [ ] Need to update
   - [ ] Updating
-- [ ] Basic View <sub><sup>*The normal screen you get to when you hit play*</sup></sub>
+- [ ] Default Mode View <sub><sup>*The normal screen you get to when you hit play*</sup></sub>
   - [ ] Level Completed
 - [ ] World View <sub><sup>*One step above world view*</sup></sub>
+ - [ ] Choose a new mode
 - [ ] Level View 
   - [ ] View Riddle
     - [ ] Wrong Answer
