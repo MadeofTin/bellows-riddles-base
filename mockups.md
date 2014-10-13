@@ -18,7 +18,7 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
   - [ ] Level Completed
 - [ ] World View <sub><sup>*One step above world view*</sup></sub>
  - [ ] Choose a new mode
-- [ ] Level View [img](/assets/mockups/pngs/level.png)
+- [ ] Level View ([doc](#level-view) - [img](/assets/mockups/pngs/level.png))
   - [ ] Riddle Basic Difficulty ([doc](#riddle-basic-difficulty) - [img](/assets/mockups/pngs/riddle.png) -  [UX](/testing/ux-testing/answerbank/index.html))
     - [ ] Wrong Answer
     - [ ] Right Answer
@@ -46,6 +46,15 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
 I like TwoDots implementation. If you download the app the image actually animates as you move up the screen. Don't know how hard it is to do that (maybe paralax? I am not techinally inclined enough to know) but it probably isn't worth it the first time since I haven't found a good animator and that would be largely up to him. But I like the idea of a path of levels I with pretty stuff around it that would change (loading a different image or video file) as you complelete levels. My paths would be more spread out because there would be significantly less levels. In this example getting to level 41 with 50 riddles per level would mean ***2,050 riddles*** or ***82 days*** of riddle writing at 25 riddles a day... Yeah... not happening that fast...
 
 - [ ] Need to redo the top bar so it one, looks better, and two, fits a lot smaller. I think I can do more with less... @TinmanPiano
+
+#### Level View
+
+| Image         | Description   |
+| ------------- | ------------- |
+| <img width="400px" src="/assets/mockups/pngs/level.png"/>  | The bar on the right would scroll if there are to many levels to fit. On default it will remove the riddle as you solve them, but if you check the "Show All" then it will show you the ones you have completed just in a different color. When you select a riddle it would replace that part of the screen. If you selected a different riddle it would chage to that. If you clicked on the same riddle it would go back to the main level screen so you can see how your people are doing. I need to do some testing on how big or small I can make these. Again, I want the image to be as big as it can without making it impossible to hit the right buttons. I have a lot of work to make it look better. 
+
+- [ ] Add Progress Indicator @tinmanpiano
+
 
 #### Riddle Basic Difficulty
 
