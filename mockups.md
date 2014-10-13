@@ -39,6 +39,9 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
 
 #### Default Mode View
 
+| Image         | 
+| <img width="200px" src="/assets/mockups/pngs/mode-view-default.png"/>  |
+
 If you download the app it actually changes as you move up the screen. Don't know how hard it is to do that (maybe paralax? I am note techinally inclined enough to know) but it probably isn't worth it the first time since I haven't found a good animator and that would be largely up to him. But the idea of a path of levels I like with pretty stuff around it that would change (loading a different image or video file) as you complelete levels. Mine paths would be more spread out because there would be significantly less levels. In this example getting to level 41 with 50 riddles per level would mean ***2,050 riddles*** or ***82 days*** of riddle writing at 25 riddles a day... Yeah... not happening that fast...
 
 #### Riddle Basic Difficulty
@@ -46,5 +49,5 @@ If you download the app it actually changes as you move up the screen. Don't kno
 
 | Image         | Description   |
 | ------------- | ------------- |
-| <img src="/assets/mockups/pngs/riddle.png"/>  | I think I have the basic layout how I would like it. If you have any other ideas ket me know. Your first question is probably why are the words on top? That is because I had this idea (Let me know how possible it would be on your end). I would like the User experiance to stay as close as it can for the different difficulty levels. So I thought it would be nice if you could start by also being able to type in text and it would filter out the words that don't match. This would happen dynamically as you type. (In web it makes more sense to me, but I don't know how using the iPhone Keyboard might change the way you can implement this.)  |
+| <img width="200px" src="/assets/mockups/pngs/riddle.png"/>  | I think I have the basic layout how I would like it. If you have any other ideas ket me know. Your first question is probably why are the words on top? That is because I had this idea (Let me know how possible it would be on your end). I would like the User experiance to stay as close as it can for the different difficulty levels. So I thought it would be nice if you could start by also being able to type in text and it would filter out the words that don't match. This would happen dynamically as you type. (In web it makes more sense to me, but I don't know how using the iPhone Keyboard might change the way you can implement this.)  |
 
