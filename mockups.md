@@ -11,15 +11,15 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
 ## Mockups index
 
 - [ ] Start Up screen
-  - [ ] Up to date (link - [img] (/assets/mockups/pngs/start-screen-uptodate.png)
-  - [ ] Need to update (link - [img](/assets/mockups/pngs/start-screen-needs-update.png))
+  - [ ] Up to date (doc - [img] (/assets/mockups/pngs/start-screen-uptodate.png)
+  - [ ] Need to update (doc - [img](/assets/mockups/pngs/start-screen-needs-update.png))
   - [ ] Updating
-- [ ] Default Mode View [link](#default-mode-view) <sub><sup>*The normal screen you get to when you hit play*</sup></sub>
+- [ ] Default Mode View [doc](#default-mode-view) - [img] (/assets/mockups/pngs/mode-view-default.png) <sub><sup>*The normal screen you get to when you hit play*</sup></sub>
   - [ ] Level Completed
 - [ ] World View <sub><sup>*One step above world view*</sup></sub>
  - [ ] Choose a new mode
-- [ ] Level View 
-  - [ ] Riddle Basic Difficulty
+- [ ] Level View [img](/assets/mockups/pngs/level.png)
+  - [ ] Riddle Basic Difficulty [img](/assets/mockups/pngs/riddle.png)
     - [ ] Wrong Answer
     - [ ] Right Answer
   - [ ] Riddle - Auto Complete Difficulty
