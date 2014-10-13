@@ -16,9 +16,11 @@ It seems like you are sort of javascript implementation so I found [this](http:/
 - [ ] World View <sub><sup>*One step above world view*</sup></sub>
  - [ ] Choose a new mode
 - [ ] Level View 
-  - [ ] View Riddle
+  - [ ] Riddle Basic Difficulty
     - [ ] Wrong Answer
     - [ ] Right Answer
+  - [ ] Riddle - Auto Complete Difficulty
+  - [ ] Riddle - Riddle Master
 - [ ] Settings View
   - [ ] Game Settings
     - [ ] Voice Setting 
