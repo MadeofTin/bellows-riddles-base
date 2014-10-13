@@ -39,10 +39,13 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
 
 #### Default Mode View
 
-| Image         | 
-| <img width="200px" src="/assets/mockups/pngs/mode-view-default.png"/>  |
+| Image         | Description |
+| ------------- |------------ |
+| <img width="200px" src="/assets/mockups/pngs/mode-view-default.png"/>  | Most of if I think is pretty self explanitory. The number at the top is your current lives/hints/free whatevers. The little bar beneath is a status bar that grows until you get your next one. If it is full then it goes grey and stays a solid line completetly filling the space.
 
 If you download the app it actually changes as you move up the screen. Don't know how hard it is to do that (maybe paralax? I am note techinally inclined enough to know) but it probably isn't worth it the first time since I haven't found a good animator and that would be largely up to him. But the idea of a path of levels I like with pretty stuff around it that would change (loading a different image or video file) as you complelete levels. Mine paths would be more spread out because there would be significantly less levels. In this example getting to level 41 with 50 riddles per level would mean ***2,050 riddles*** or ***82 days*** of riddle writing at 25 riddles a day... Yeah... not happening that fast...
+
+- [ ] Need to redo the top bar so it one, looks better, and two, fits a lot smaller. @TinmanPiano
 
 #### Riddle Basic Difficulty
 
