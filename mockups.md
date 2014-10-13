@@ -14,7 +14,7 @@ You think it work so we could start with just an image and then move to an anima
   - [ ] Up to date
   - [ ] Need to update
   - [ ] Updating
-- [ ] [Default Mode View] (#id-goes-here) <sub><sup>*The normal screen you get to when you hit play*</sup></sub>
+- [ ] [Default Mode View] (#default-mode-view) <sub><sup>*The normal screen you get to when you hit play*</sup></sub>
   - [ ] Level Completed
 - [ ] World View <sub><sup>*One step above world view*</sup></sub>
  - [ ] Choose a new mode
@@ -37,5 +37,5 @@ You think it work so we could start with just an image and then move to an anima
 
 ## Mockup Documentations
 
-#### Default Mode View #### {#id-goes-here}
+#### Default Mode View
 If you download the app it actually changes as you move up the screen. Don't know how hard it is to do that (maybe paralax?) but it probably isn't worth it the first time since I haven't found a good animator and that would be largely up to him. But the idea of the path of levels I like with pretty stuff around it that would change (loading a different image) as you complelete levels. Mine would be more spread out because there would be significantly less levels. In this example getting to level 41 with 50 riddles per level would mean ***2,050 riddles*** or ***82 days*** of riddle writing at 25 riddles a day...
