@@ -5,7 +5,7 @@ But.... that is a lot more work than we need to. So I Think doing strait images 
 
 It seems like you are sort of javascript implementation so I found [this](http://stackoverflow.com/questions/13224037/mapping-areas-on-an-html5-video) that would explain how to do mapping over a video. You think it work so we could start with just an image and then move to an animated movie playing in the background. I'll put more about what kind of style I am looking for in the [branding.md] (bellows-riddles-base/branding.md)
 
-## Mockups TODO
+## Mockups index
 
 - [ ] Start Up screen
   - [ ] Up to date
