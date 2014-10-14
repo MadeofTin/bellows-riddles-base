@@ -85,8 +85,10 @@ var AnswersList = React.createClass({
       );
     }.bind(this));
     return (
-      <div className="answersList">
-        {answers}
+      <div className="answersPane">
+        <div className="answersList">
+          {answers}
+        </div>
       </div>
     );
   }
@@ -102,7 +104,7 @@ var RiddlesScreen = React.createClass({
 
   getInitialState: function() {
     return {
-      showRiddle: "r-1",
+      showRiddle: "r1",
       completedRiddles: {},
       livesLeft: 3,
       hintsLeft: 4,
@@ -158,14 +160,14 @@ var RiddlesScreen = React.createClass({
               Hints: <strong>{this.state.hintsLeft}</strong>
             </div>
           </div>
-          <div className="riddleLines">
-            {lines}
-          </div>
           <AnswersList
             answers={answers}
             correctAnswer={riddle.answer}
             onCorrectAnswer={this.handleCorrectAnswer.bind(this, riddle)}
             onWrongAnswer={this.handleWrongAnswer.bind(this, riddle)}/>
+          <div className="riddleLines">
+            {lines}
+          </div>
         </div>
       </Screen>
     );

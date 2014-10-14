@@ -48,306 +48,306 @@
 		"mode" : "basic",
 		"answer" : "vaccination",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r8" :{
 		"id" : "r8",
 		"mode" : "basic",
 		"answer" : "vision",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r9" :{
 		"id" : "r9",
 		"mode" : "basic",
 		"answer" : "knowledge",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r10" :{
 		"id" : "r10",
 		"mode" : "basic",
 		"answer" : "Race",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r11" :{
 		"id" : "r11",
 		"answer" : "Fear",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r12" :{
 		"id" : "r12",
 		"mode" : "basic",
 		"answer" : "Truth",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r13" :{
 		"id" : "r13",
 		"mode" : "basic",
 		"answer" : "Cellphone",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r14" :{
 		"id" : "r14",
 		"mode" : "basic",
 		"answer" : "Exit",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r15" :{
 		"id" : "r15",
 		"mode" : "basic",
 		"answer" : "Pride",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r16" :{
 		"id" : "r16",
 		"mode" : "basic",
 		"answer" : "Pockets",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r17" :{
 		"id" : "r17",
 		"mode" : "basic",
 		"answer" : "Travel",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r18" :{
 		"id" : "r19",
 		"mode" : "basic",
 		"answer" : "Cold",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r19" :{
 		"id" : "r19",
 		"mode" : "basic",
 		"answer" : "Darkness",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r20" :{
 		"id" : "r20",
 		"mode" : "basic",
 		"answer" : "Light",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r21" :{
 		"id" : "r21",
 		"mode" : "basic",
 		"answer" : "Ghost",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r22" :{
 		"id" : "r22",
 		"mode" : "basic",
 		"answer" : "Happiness",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r23" :{
 		"id" : "r23",
 		"mode" : "basic",
 		"answer" : "Technology",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r24" :{
 		"id" : "r24",
 		"mode" : "basic",
 		"answer" : "Language",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r25" :{
 		"id" : "r25",
 		"mode" : "basic",
 		"answer" : "Notes",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r26" :{
 		"id" : "r26",
 		"mode" : "basic",
 		"answer" : "Train",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r27" :{
 		"id" : "r27",
 		"mode" : "basic",
 		"answer" : "TV",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r28" :{
 		"id" : "r28",
 		"mode" : "basic",
 		"answer" : "Escalator",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r29" :{
 		"id" : "r29",
 		"mode" : "basic",
 		"answer" : "Gate",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r30" :{
 		"id" : "r30",
 		"mode" : "basic",
 		"answer" : "Window",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r31" :{
 		"id" : "r31",
 		"mode" : "basic",
 		"answer" : "Advertisement",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r32" :{
 		"id" : "r32",
 		"mode" : "basic",
 		"answer" : "Movie",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r33" :{
 		"id" : "r33",
 		"mode" : "basic",
 		"answer" : "seat",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r34" :{
 		"id" : "r34",
 		"mode" : "basic",
 		"answer" : "Priority",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r35" :{
 		"id" : "r35",
 		"mode" : "basic",
 		"answer" : "Age",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r36" :{
 		"id" : "r36",
 		"mode" : "basic",
 		"answer" : "Death",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r37" :{
 		"id" : "r37",
 		"mode" : "basic",
 		"answer" : "Clock",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r38" :{
 		"id" : "r38",
 		"answer" : "Edge",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r39" :{
 		"id" : "r39",
 		"mode" : "basic",
 		"answer" : "Love",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r40" :{
 		"id" : "r40",
 		"mode" : "basic",
 		"answer" : "Maze",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r41" :{
 		"id" : "r41",
 		"mode" : "basic",
 		"answer" : "Gossip",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r42" :{
 		"id" : "r42",
 		"mode" : "basic",
 		"answer" : "conclusion",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r43" :{
 		"id" : "r43",
 		"mode" : "basic",
 		"answer" : "abandon",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r44" :{
 		"id" : "r44",
 		"mode" : "rhyming",
 		"answer" : "belongings",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r45" :{
 		"id" : "r45",
 		"mode" : "basic",
 		"answer" : "benefits",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r46" :{
 		"id" : "r46",
 		"mode" : "basic",
 		"answer" : "bill",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r47" :{
 		"id" : "r47",
 		"mode" : "basic",
 		"answer" : "breach",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r48" :{
 		"id" : "r48",
 		"mode" : "basic",
 		"answer" : "breakthrough",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r49" :{
 		"id" : "r49",
 		"mode" : "basic",
 		"answer" : "recipe",
 		"riddle" : [""],
-		"hint" : "",
+		"hint" : ""
 	},
 	"r50" :{
 		"id" : "r50",
 		"mode" : "basic",
 		"answer" : "swing",
 		"riddle" : [""],
-		"hint" : "",
-	},
-	
+		"hint" : ""
+	}
+
 }

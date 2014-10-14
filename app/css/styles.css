@@ -43,18 +43,39 @@
   margin: 0 15px;
 }
 
-.riddlesView .riddleLine {
+.riddlesView .riddleLines {
+  padding: 15px;
+}
+
+.riddlesView .riddleLines .riddleLine {
   text-align: center;
   font-weight: bold;
   font-size: larger;
 }
 
 
-.riddlesView .answersList {
+.riddlesView .answersPane .answersList {
   text-align: center;
+  overflow: scroll;
+  max-height: 130px;
+  border-bottom: 1px solid #428BCA;
+  border-left: 5px solid #428BCA;
+  box-shadow: inset 0px 2px 2px rgba(0,0,0,.1);
+  background: #eee;
 }
 
-.riddlesView .answersList .btn.riddleAnswer {
+.riddlesView .answersPane .answersFilter {
+  border-bottom: 1px solid #428BCA;
+  padding: 5px;
+  text-align: right;
+}
+
+.riddlesView .answersPane .answersFilter input {
+  border: 1px solid #428BCA;
+  margin: 5px;
+}
+
+.riddlesView .answersPane .answersList .btn.riddleAnswer {
   border: 1px solid #428BCA;
   background-color: white;
   padding: 5px;
@@ -63,7 +84,7 @@
   color: #428BCA;
 }
 
-.riddlesView .answersList .btn.riddleAnswer:active {
+.riddlesView .answersPane .answersList .btn.riddleAnswer:active {
   background-color: #428BCA;
   color: white;
 }
