@@ -21,3 +21,12 @@ python -m SimpleHTTPServer 0.0.0.0:<port>
 ```
 
 Then point your phone to it and you can test it on the actual phone size.
+
+Or you can use the SimpleAuthServer.py I put in the home directory. Also run it in the home directory to get the relative links to the images.
+
+```
+python SimpleAuthServer.py 9001 tinmen:bel00w
+```
+
+Which I did and is currently running at
+http://104.200.20.204:9001/testing/ux-testing/answerbank/
