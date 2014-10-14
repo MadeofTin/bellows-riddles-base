@@ -14,12 +14,15 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
   - [ ] Up to date (doc - [img] (/assets/mockups/pngs/start-screen-uptodate.png)
   - [ ] Need to update (doc - [img](/assets/mockups/pngs/start-screen-needs-update.png))
   - [ ] Updating
+- [ ] Keyboard [doc](#Keyboard)
 - [ ] Default Mode View [doc](#default-mode-view) - [img] (/assets/mockups/pngs/mode-view-default.png) <sub><sup>*The normal screen you get to when you hit play*</sup></sub>
   - [ ] Level Completed
 - [ ] World View <sub><sup>*One step above world view*</sup></sub>
  - [ ] Choose a new mode
 - [ ] Level View ([doc](#level-view) - [img](/assets/mockups/pngs/level.png))
-  - [ ] Riddle Basic Difficulty ([doc](#riddle-basic-difficulty) - [img](/assets/mockups/pngs/riddle.png) -  [UX](/testing/ux-testing/answerbank/index.html))
+  - [ ] Riddle ([doc](#riddle-basic-difficulty) - [img](/assets/mockups/pngs/riddle.png) -  [UX](/testing/ux-testing/answerbank/index.html))
+    - [ ] Keyboard Closed
+    - [ ] Keyboard Open Easy
     - [ ] Wrong Answer
     - [ ] Right Answer
   - [ ] Riddle - Auto Complete Difficulty
@@ -37,11 +40,18 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
 
 ## Mockup Documentations
 
+#### Keyboard
+
+| Unopened      | Opened Easy | Description |
+| ------------- |------------ | :---------- |
+| <img src="/assets/mockups/pngs/keyboards/keyboard-unexpanded.png"/> | <img src="/assets/mockups/pngs/keyboards/keyboard-easy-open.png"/>| Since we know they are answering our riddles we could just make a custom keyboard specialized for answeing riddles. When unopen it would sit at the bottom like in the unopened img. When opened it would be different based on the difficulty. Making it similar usibility for each difficulty and makes it easy to downgrade which would be a paid feature so it would increase the chance more people would do this. There would be a random sort button that would randomly sort the answers that you see. Typing would limit the number of riddles avaible (in the current order. It would not manipulate order. Just filter. Sorting would change them from being ordered A-Z to Z-A. |
+
+
 #### Default Mode View
 
 | Image         | Description |
 | ------------- |------------ |
-| <img width="400px" src="/assets/mockups/pngs/mode-view-default.png"/>  | Most of if I think is pretty self explanitory. The number at the top is your current lives/hints/free whatevers. The little bar beneath is a status bar that grows until you get your next one. If it is full then it goes grey and stays a solid line completetly filling the space.
+| <img width=200px src="/assets/mockups/pngs/mode-view-default.png"/>  | Most of if I think is pretty self explanitory. The number at the top is your current lives/hints/free whatevers. The little bar beneath is a status bar that grows until you get your next one. If it is full then it goes grey and stays a solid line completetly filling the space.
 
 I like TwoDots implementation. If you download the app the image actually animates as you move up the screen. Don't know how hard it is to do that (maybe paralax? I am not techinally inclined enough to know) but it probably isn't worth it the first time since I haven't found a good animator and that would be largely up to him. But I like the idea of a path of levels I with pretty stuff around it that would change (loading a different image or video file) as you complelete levels. My paths would be more spread out because there would be significantly less levels. In this example getting to level 41 with 50 riddles per level would mean ***2,050 riddles*** or ***82 days*** of riddle writing at 25 riddles a day... Yeah... not happening that fast...
 
@@ -51,7 +61,7 @@ I like TwoDots implementation. If you download the app the image actually animat
 
 | Image         | Description   |
 | ------------- | ------------- |
-| <img width="400px" src="/assets/mockups/pngs/level.png"/>  | The bar on the right would scroll if there are to many levels to fit. On default it will remove the riddle as you solve them, but if you check the "Show All" then it will show you the ones you have completed just in a different color. When you select a riddle it would replace that part of the screen. If you selected a different riddle it would chage to that. If you clicked on the same riddle it would go back to the main level screen so you can see how your people are doing. I need to do some testing on how big or small I can make these. Again, I want the image to be as big as it can without making it impossible to hit the right buttons. I have a lot of work to make it look better. 
+| <img width=200px src="/assets/mockups/pngs/level.png"/>  | The bar on the right would scroll if there are to many levels to fit. On default it will remove the riddle as you solve them, but if you check the "Show All" then it will show you the ones you have completed just in a different color. When you select a riddle it would replace that part of the screen. If you selected a different riddle it would chage to that. If you clicked on the same riddle it would go back to the main level screen so you can see how your people are doing. I need to do some testing on how big or small I can make these. Again, I want the image to be as big as it can without making it impossible to hit the right buttons. I have a lot of work to make it look better. 
 
 - [ ] Add Progress Indicator @tinmanpiano
 
