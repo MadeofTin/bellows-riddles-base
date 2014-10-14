@@ -28,5 +28,11 @@ Or you can use the SimpleAuthServer.py I put in the home directory. Also run it 
 python SimpleAuthServer.py 9001 tinmen:bel00w
 ```
 
+### Dev Server
+
 Which I did and is currently running at
+
 http://104.200.20.204:9001/testing/ux-testing/answerbank/
+
+Username: tinmen
+Password: bel00w
