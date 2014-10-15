@@ -9,6 +9,8 @@ Pass: bell0w
 Feel Free to add your sshkey if you want.
 I added an sshkey to the github so you can pull any changes easy.
 
+- [ ] Todo: Build a webhook so it auto updates when someone pushes to github.
+
 ####WebSever
 http://23.236.50.167:9001
 ```
