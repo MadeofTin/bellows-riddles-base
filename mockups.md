@@ -56,7 +56,9 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
 | ![A-Z Unselected](/assets/mockups/pngs/keyboards/sort/keyboard-sort-a-z-unselected.png) | ![A-Z Selected ](/assets/mockups/pngs/keyboards/sort/keyboard-sort-a-z-selected.png) | ![Z-A Unselected ](/assets/mockups/pngs/keyboards/sort/keyboard-sort-z-a-unselected.png) |![Z-A Selected ](/assets/mockups/pngs/keyboards/sort/keyboard-sort-z-a-selected.png) |
 | Answers are currently randomly sorted from pressing the randomizer before when in a state of A-Z sorting Selected. This is also the default when opening for the first time. If you select the A->Z button it would change it to selected and sort the answers| In this mode the answers are sorted from a-z. If you click on a-z again it would change to z-a selected. If you clicked on the randomiser it would unselect the z-a but leave it as z-a but the answers would now be sorted randomly | Items are currently random from pressing the randomizer before when you were in a state of Z-A sorting. If you select the Z->A button it would change it to selected and sort the items | Answers are currently sorted from Z-A. If you select the Z-A button it would change to A-Z selected. If you clicked on the randomizer it would randomize the answers and unselect Z-A, but leave the button as Z-A |
 
+###### Difficulty Selector
 
+This would be similar in functionality like switching between different keyboards in the current ios keyboard. The key difference is you could not change difficulty if you didn't buy the upgrade, and you can only go down in difficulty. I posted an image of what the keyboard selector in Apple looks like for now as a place holder. We would need to come up with difficulty images and colors (I'll explain colors later in the branding doc when I make it). You can see the [inspiration doc](/assets/inspiration.md#difficulty-symobols)
 #### Default Mode View
 
 | Image         | Description |
