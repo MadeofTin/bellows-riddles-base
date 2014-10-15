@@ -58,7 +58,7 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
 
 ###### Difficulty Selector
 
-This would be similar in functionality like switching between different keyboards in the current ios keyboard. The key difference is you could not change difficulty if you didn't buy the upgrade, and you can only go down in difficulty. I posted an image of what the keyboard selector in Apple looks like for now as a place holder. We would need to come up with difficulty images and colors (I'll explain colors later in the branding doc when I make it). You can see the [inspiration doc](/assets/inspiration.md#difficulty-symobols)
+This would be similar in functionality like switching between different keyboards in the current ios keyboard. The key difference is you could not change difficulty if you didn't buy the upgrade, and you can only go down in difficulty. I posted an image of what the keyboard selector in Apple looks like for now as a place holder. We would need to come up with difficulty images and colors (I'll explain colors later in the branding doc when I make it). You can see the [inspiration doc](assets/inspirations.md#Difficulty%20Symbols)
 #### Default Mode View
 
 | Image         | Description |
