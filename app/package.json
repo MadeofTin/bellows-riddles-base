@@ -1,0 +1,24 @@
+{
+  "name": "ReactHack",
+  "version": "0.0.2",
+  "description": "Get started with building React apps",
+  "repository": "",
+  "dependencies": {
+    "parse": "petehunt/parsesdk-isomorphic",
+    "react": "~0.8",
+    "ReactHack": "petehunt/reacthack-core",
+    "showdown": "petehunt/showdown"
+  },
+  "devDependencies": {
+    "jsx-loader": "~0.0.0",
+    "webpack": "~0.11.0",
+    "url-loader": "~0.5.1",
+    "css-loader": "~0.6.2",
+    "style-loader": "~0.6.0"
+  },
+  "scripts": {
+    "start": "webpack --watch --debug src/main.js build/main.js"
+  },
+  "author": "Pete Hunt",
+  "license": "Apache 2"
+}
