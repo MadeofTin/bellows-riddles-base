@@ -42,15 +42,17 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
 
 #### Keyboard
 
-*I was to lazy actually sort the items. I think you'll get the idea that they should be sorted*
 
 | Unopened      | Opened Easy | Description |
 | ------------- |------------ | :---------- |
 | <img src="/assets/mockups/pngs/keyboards/keyboard-unexpanded.png"/> | <img src="/assets/mockups/pngs/keyboards/keyboard-easy-open.png"/>| Since we know they are answering our riddles we could just make a custom keyboard specialized for answering riddles. When unopen it would sit at the bottom like in the unopened img. When opened it would be different based on the difficulty. Making it similar usibility for each difficulty and makes it easy to downgrade which would be a paid feature so it would increase the chance more people would do this. There would be a random sort button that would randomly sort the answers that you see. Typing would limit the number of riddles avaible (in the current order. It would not manipulate order. Just filter. Sorting would change them from being ordered A-Z to Z-A. |
 
 ###### Keyboard Sort and Randomizer
-| A->Z Unselected | A->Z Selected | Z->A Unselected | Z->A Selected |
-| --------------- | ------------- | --------------- | ------------- |
+
+*I was to lazy actually sort the answers. I think you'll get the idea that they should be sorted. The Important Part is the keyboard buttons*
+
+| A->Z Unselected | A->Z Selected   | Z->A Unselected | Z->A Selected   |
+| --------------- | --------------- | --------------- | --------------- |
 | ![A-Z Unselected](/assets/mockups/pngs/keyboards/sort/keyboard-sort-a-z-unselected.png) | ![A-Z Selected ](/assets/mockups/pngs/keyboards/sort/keyboard-sort-a-z-selected.png) | ![Z-A Unselected ](/assets/mockups/pngs/keyboards/sort/keyboard-sort-z-a-unselected.png) |![Z-A Selected ](/assets/mockups/pngs/keyboards/sort/keyboard-sort-z-a-selected.png) |
 | Answers are currently randomly sorted from pressing the randomizer before when in a state of A-Z sorting Selected. This is also the default when opening for the first time. If you select the A->Z button it would change it to selected and sort the answers| In this mode the answers are sorted from a-z. If you click on a-z again it would change to z-a selected. If you clicked on the randomiser it would unselect the z-a but leave it as z-a but the answers would now be sorted randomly | Items are currently random from pressing the randomizer before when you were in a state of Z-A sorting. If you select the Z->A button it would change it to selected and sort the items | Answers are currently sorted from Z-A. If you select the Z-A button it would change to A-Z selected. If you clicked on the randomizer it would randomize the answers and unselect Z-A, but leave the button as Z-A |
 
