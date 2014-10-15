@@ -14,7 +14,9 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
   - [ ] Up to date (doc - [img] (/assets/mockups/pngs/start-screen-uptodate.png)
   - [ ] Need to update (doc - [img](/assets/mockups/pngs/start-screen-needs-update.png))
   - [ ] Updating
-- [ ] Keyboard [doc](#Keyboard)
+- [ ] Keyboard [doc](#keyboard)
+  - [ ] Function Keys [doc] (#keyboard-sort-and-randomizer)
+  - [ ] Difficulty Selector [doc](#difficulty-selector)
 - [ ] Default Mode View [doc](#default-mode-view) - [img] (/assets/mockups/pngs/mode-view-default.png) <sub><sup>*The normal screen you get to when you hit play*</sup></sub>
   - [ ] Level Completed
 - [ ] World View <sub><sup>*One step above world view*</sup></sub>
