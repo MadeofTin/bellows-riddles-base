@@ -49,7 +49,7 @@ https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/s
 
 ###### Keyboard Sort and Randomizer
 
-*I was to lazy actually sort the answers. I think you'll get the idea that they should be sorted. The Important Part is the keyboard buttons*
+*I was to lazy to actually sort the answers. I think you'll get the idea that they should be sorted. The Important Part is the keyboard Sort and Randomizer Buttons*
 
 | A->Z Unselected | A->Z Selected   | Z->A Unselected | Z->A Selected   |
 | --------------- | --------------- | --------------- | --------------- |
