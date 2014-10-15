@@ -6,7 +6,7 @@ Just a place for me to keep track of what I am currently doing, so you can be aw
 
 
 ---
-
+```
 Server is Live on GCE.
 
 bellow@23.236.50.167
@@ -14,8 +14,17 @@ Pass: bell0w
 
 WebSever
 23.236.50.167:9001
-Username: Tinmen
+Username: tinmen
 Pass: bell0w
+```
+
+- [ ] Pull that guy's repo and merge in Pauls stuff
+
+---
+
+---
+
+---
 
 
 Right now I am trying to figure out if we did do a javascript app what would be the aspect ratio and resolution we would need to have for our master Riddle, Level, and World files. Then we could make them once and the script out resolutions for everything else.
