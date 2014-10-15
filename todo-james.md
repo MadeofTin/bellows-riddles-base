@@ -2,8 +2,7 @@
 
 Just a place for me to keep track of what I am currently doing, so you can be aware what direction I am heading.
 
-#### James
-
+## James
 
 ---
 ```
@@ -18,6 +17,8 @@ Username: tinmen
 Pass: bell0w
 ```
 
+### Next up
+
 - [ ] Pull that guy's repo and merge in Pauls stuff
 
 ---
@@ -26,6 +27,7 @@ Pass: bell0w
 
 ---
 
+### Other Things
 
 Right now I am trying to figure out if we did do a javascript app what would be the aspect ratio and resolution we would need to have for our master Riddle, Level, and World files. Then we could make them once and the script out resolutions for everything else.
 
