@@ -1,56 +1,50 @@
 # Currently
 
-Just a place for me to keep track of what I am currently doing, so you can be aware what direction I am heading.
+Just a place for me to keep track of what I need to do / am working on, so you can be aware what direction I am heading.
 
 ## James
 
----
-```
-Server is Live on GCE.
+## Currently
 
-bellow@23.236.50.167
-Pass: bell0w
+#### Writing Road-map
 
-WebSever
-23.236.50.167:9001
-Username: tinmen
-Pass: bell0w
-```
-
-### Next up
-
-- [ ] Pull that guy's repo and merge in Pauls stuff
+Everything we will need to get to a point where we can release to a limited number of users and test the app in the wild.
 
 ---
 
----
+#### Other Things
 
----
+##### What should the resolution of our assets be?
 
-### Other Things
+I what to test some UI elements so I can know what the best aspect ratio and resolution for our image files Riddle, Level, and World art be. Then we could make them once and the script out resolutions for everything else at some point. If it is worth the space of course.
 
-Right now I am trying to figure out if we did do a javascript app what would be the aspect ratio and resolution we would need to have for our master Riddle, Level, and World files. Then we could make them once and the script out resolutions for everything else.
-
-- [ ] How small can I make the top UI
-- [ ] How small can I make the riddle selector
-- [ ] How small can I make the Riddle Answer UI
+- [ ] How big can I make the image part
+  - [ ] How small can I make the top UI
+  - [ ] How small can I make the riddle selector
+  - [ ] How small can I make the Riddle Answer UI
 
 I want to base the UI to work for the iPhone 6 optimized. The smaller models will work, but just be a little smaller. I don't think we will get many more phones smaller than the iPhone 6 these days.
 
 - [ ] Decide aspect ratio
-  - [ ] World asset
-  - [ ] Level asset
-  - [ ] Riddle asset
+  - [ ] World art size
+  - [ ] Level art size
+  - [ ] Riddle art size
 
-- [ ] Deside max resolution
+- [ ] Decide max resolution  #Probably Ipad Air
 
-Once we know the aspect ratio of the images we can just them be designed to work for iPhone 6 Resolution, but be created hidef enough for the ipad. From these master files you can script something that builds on for all of the resloutions we would need to support for the different phone and tablet sizes.
+Once we know the aspect ratio of the images we can have the artist design it once. From these master files you can script something that builds out for all of the resolutions we would need to support for the different phone and tablet sizes.
 
-* iPhone 4s (debating about this one being worth it. What are your thoughts?)
-* iphone 5
-* iPhone 6
-* IPhone 6 Plus
-* iPad Mini
-* iPad Air
+Check means decided to optimize for.
 
-- [ ] Write asset Creation standards doc.
+- [ ] iPhone 4s (debating about this one being worth it.)
+- [ ] iPhone 5
+- [ ] iPhone 6
+- [ ] iPhone 6 Plus
+- [ ] iPad Mini
+- [ ] iPad Air
+
+Lastly
+
+- [ ] Write asset creation standards doc.
+
+---
