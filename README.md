@@ -1,8 +1,29 @@
 Bellow's Riddle Quest
-====================
+=====================
 
 Where I keep track of the Bellow's Riddle Quest data so I can share it with my team
 
+# Install
+
+Steps for installing and building this app are as follows.
+
+### Pre-requisits
+
+* Install [node.js](http://nodejs.org/)
+* Check-out the git repository
+
+### Building
+
+After you have a git clone of the repo, run the following commands:
+
+    npm install
+    npm start
+
+This will generate the ``build`` directory.
+
+### Serving
+
+Just stick the entire repository behind a web server and navigate to http://webserver-root/app/index.html.  It's important to have the entire repository behind a web server so that javascript can fetch the json list of riddles.
 
 # Goal
 To make a casual game where people solve riddles. It should be chalanging but not so challenging it makes you want to listen to Justin Bieber's baby on repeat because that would be better than this...
@@ -44,7 +65,7 @@ To provide some progression of difficulty in the game. I think there should be a
 Lives are like lives in Candy Crush or Twodots. Because you give them all of the answers in a bank they could just quickly click all of the answers until they get one. So if you limit the number they can get wrong in an hour then they can't force the answer. They need to choose carefully.
 
 ```
-Bank: 10 lives 
+Bank: 10 lives
 Replenish:  1 Every 10 minutes
 ```
 
