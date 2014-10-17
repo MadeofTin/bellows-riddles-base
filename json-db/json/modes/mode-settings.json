@@ -1,0 +1,12 @@
+{
+  "modes" : {
+    "basic" : {
+      "levels" : "/json/modes/basic-levels.json",
+      "riddle-background" : "/assets/levels/white-wood-texture.jpg"
+    },
+    "basic-extra" : {
+      "levels" : "basic-extra-levels.json",
+      "riddle-background" : "/assets/levels/light-brown-wood-texture.jpg"
+    }
+  }
+}

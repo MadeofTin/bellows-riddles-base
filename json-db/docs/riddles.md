@@ -12,11 +12,10 @@ r2 : Word3
 ### JSON Documentation
 
 ```
-	"answer" :          # Riddles One Word Answer,
-	"riddle" :          # List of strings for each line in the riddle,
-	"hint" :            # One line of hint text,
-	"audio" :           # Link to Google Storage of me saying the Riddle (Don't know if this is a good idea yet),
-	"back-ground-img" : # Overrides default background image if set
+	"id" :      # `r` followed by a number. `r12`
+	"answer" :  # Riddles answer,
+	"riddle" :  # List of strings for each line in the riddle,
+	"hint" :    # One line of hint text,
 ```
 
 ##### Template Riddle
@@ -24,7 +23,6 @@ r2 : Word3
 ```
 "r" :{
   "id" : "r",
-  "mode" : "",
   "answer" : "",
   "riddle" : [""],
   "hint" : "",

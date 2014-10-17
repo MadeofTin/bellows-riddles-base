@@ -16,3 +16,18 @@ This will define the default of all of the apps. If someone is at the default le
 	...
 ```
 
+#### Points
+
+You would earn a different number of points based on the difficulty of the riddle. Eventually these would get you coins you can spend on things. But I want to start tracking the score so I can get an idea of what I should make things cost, and how often I should give coins. Now the modes are the difficulties so there ID is the mode.
+
+```
+"point-values" : {
+		"basic" : {            # Foreign Key to Mode-level
+			"mode" : "basic",
+			"value" : 1        #number of points you get for each riddle correct.
+		},
+		"basic-extra" : {
+			"mode" : "basic-extra",
+			"value" : 3
+		}
+```
