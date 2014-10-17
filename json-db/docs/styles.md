@@ -8,6 +8,5 @@
 ```
 #### Implementation Notes
 
-Styles sort of work like CSS as in the cascade there will be a base style in settings.json, but there could also be a base style in level that would override that. And, there could be a style in a riddle itself that would overide all of those, if it was there of course.
+Styles sort of work like CSS as in that it will cascade. There will be a base style in settings.json, but there could also be a level style in level.json that would override the settings. And, there could be a style in a riddle itself that would overide all of those, if it was there of course. Heck, If I really wanted to I could even hardcode a syle into one line in the riddle text line it's self.
 
-Not sure how to store fonts and things. Maybe just put them up in the google-cloud-storage?
