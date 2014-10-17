@@ -1,0 +1,303 @@
+{
+	"r1": {
+		"id": "r1",
+		"answer" : "Tommorow",
+		"riddle" : ["It's something you wait for","That never comes", "It's something you must plan for", "If you want to get anything done"],
+		"hint" : "Think about how we measure our days or talk about something in the future"
+	},
+	"r2": {
+		"id": "r2",
+  	"answer" : "Courage",
+  	"riddle" : ["It's something you find","By losing something else","But when you use it","You don't lose it"],
+    "hint" : ""
+  },
+  "r3": {
+		"id": "r3",
+  	"answer" : "Enemies",
+  	"riddle" : ["The less of these you have the better","But the more you do the more they find you","Not written in stone letter","With effort they change anew"],
+    "hint" : ""
+    },
+  "r4" : {
+		"id": "r4",
+  	"answer" : "Diet",
+  	"riddle" : ["The further you go the more you limit","Some do for show some need the benefit","No matter how much you want it's hard to stay with it"],
+  	"hint": ""
+  	},
+  "r5" : {
+		"id": "r5",
+  	"answer" : "Airport",
+  	"riddle" : ["A place you can come by yourself But rarely sit alone","A Cast system of class Everyone condones","No matter how much you hurry It won't get you home","Faster than planned we won't judge as you stand like a clone"],
+  	"hint": ""
+  	},
+  "r6" : {
+		"id": "r6",
+  	"answer" : "Music",
+  	"riddle" : ["Something most people appreciate but don't know it's value.","Something most people want to create but few know how to","Something you consume without getting full","Something you that can change how you feel and touches the soul"],
+  	"hint": ""
+	},
+	"r7" : {
+		"id" : "r7",
+		"answer" : "Vaccination",
+		"riddle" : ["A chicken and egg problem at its worst", "You can't get this with out having it first", "For many it's required", "But what it takes to acquire", "Is uncomfortable for most people, it hurts." ],
+		"hint" : ""
+	},
+	"r8" :{
+		"id" : "r8",
+		"answer" : "Vision",
+		"riddle" : ["In retrospect it's good to have", "But to start off with this some will call you mad ", "It can often make you feel alone", "But the reward for the risk in history is shown"],
+		"hint" : ""
+	},
+	"r9" :{
+		"id" : "r9",
+		"answer" : "Knowledge",
+		"riddle" : ["There is no limit to how much you can gather", "But the more you get the limits rather ", "Become more clear and in time You see", "That an insatiable appetite this will be"],
+		"hint" : ""
+	},
+	"r10" :{
+		"id" : "r10",
+		"answer" : "Race",
+		"riddle" : ["Everyone tries to value your own", "But everyone tries to accept others it's known","The more diverse it becomes the more it disappears","If we all didn't care why should we hold it dear"],
+		"hint" : ""
+	},
+	"r11" :{
+		"id" : "r11",
+		"answer" : "Fear",
+		"riddle" : ["Even when it's unfounded it's effect is felt", "For some it can make you feel ungrounded as you melt", "Something that when stronger then the thing you want", "Will keep you in your place your progress it will taunt"],
+		"hint" : ""
+	},
+	"r12" :{
+		"id" : "r12",
+		"answer" : "Truth",
+		"riddle" : ["Something we may never achieve ", "Our decisions are based on the perceptions of these", "But that doesn't stop people saying they know ", "A fool doesn't think twice", "The wise see how far we could go"],
+		"hint" : ""
+	},
+	"r13" :{
+		"id" : "r13",
+		"answer" : "Cellphone",
+		"riddle" : ["Something you can use when your by yourself", "But always takes someone or something else", "If someone doesn't know you use it you look like a fool", "But once they do they will avoid speaking to you as a rule"],
+		"hint" : ""
+	},
+	"r14" :{
+		"id" : "r14",
+		"answer" : "Exit",
+		"riddle" : ["There is no beginning without an end", "You can't do this without it's friend", "No matter how hard you try", "If you can't find this your still stuck inside"],
+		"hint" : ""
+	},
+	"r15" :{
+		"id" : "r15",
+		"answer" : "Pride",
+		"riddle" : ["The more of this you have the worse it hurts to lose it", "It has no real value but people hold on to it", "In the end it gets in the way", "But most can't let go in one day", "The freedom once liberated", "Few will feel that unabated"],
+		"hint" : ""
+	},
+	"r16" :{
+		"id" : "r16",
+		"answer" : "Pockets",
+		"riddle" : ["Men's are large and spacious", "Women's are small and space less","Is this sexist I don't know", "Form or fashion which will you show"],
+		"hint" : ""
+	},
+	"r17" :{
+		"id" : "r17",
+		"answer" : "Travel",
+		"riddle" : ["To do this sparingly is a treat", "But do too much and you will be beat", "The process for most isn't fun", "But, the end result makes it worth each one"],
+		"hint" : ""
+	},
+	"r18" :{
+		"id" : "r18",
+		"answer" : "Cold",
+		"riddle" : ["You can put on more to resist ", "But to severe and it will hold you stiff", "It has a name but doesn't exist", "It's the lack of something else that defines this"],
+		"hint" : ""
+	},
+	"r19" :{
+		"id" : "r19",
+		"answer" : "Darkness",
+		"riddle" : ["Instantly defeated by it's foe", "But when surrounded by it fear it can sew", "Some can live and only this know", "But to the average person never used to this you'll grow"],
+		"hint" : ""
+	},
+	"r20" :{
+		"id" : "r20",
+		"answer" : "Light",
+		"riddle" : ["Me, Science has yet to accurately define", "But to everything living you can thank me in kind", "Too little and I am of use to none", "But too much, life would end, that's no fun"],
+		"hint" : ""
+	},
+	"r21" :{
+		"id" : "r21",
+		"answer" : "Ghost",
+		"riddle" : ["Wether or not you believe if I exist", "To see me would cause internal distress", "Some say I am here because of things left undone", "Others to help those who have yet to become"],
+		"hint" : ""
+	},
+	"r22" :{
+		"id" : "r22",
+		"answer" : "Happiness",
+		"riddle" : ["I can't be bought but do have a price", "Some say to have this everything must be nice In truth", "If found from something else it will wither", "But once found in yourself you'll become the giver"],
+		"hint" : ""
+	},
+	"r23" :{
+		"id" : "r23",
+		"answer" : "Technology",
+		"riddle" : ["Without knowledge this looks like magic", "But actually is pretty dumb, it's tragic","One piece misplaced I'm a useless mess", "But when working, superhuman tasks I can dispense" ],
+		"hint" : ""
+	},
+	"r24" :{
+		"id" : "r24",
+		"answer" : "Language",
+		"riddle" : ["I am built to communicate", "But only the surface I can relate", "Few see my weakness because they know nothing else", "Until there exists something better you're stuck with myself"],
+		"hint" : ""
+	},
+	"r25" :{
+		"id" : "r25",
+		"answer" : "Notes",
+		"riddle" : ["Taking these can help you remember", "But take to much you may be called a pretender", "Crafted with intense care", "Once done left alone unless needed for share"],
+		"hint" : ""
+	},
+	"r26" :{
+		"id" : "r26",
+		"answer" : "Train",
+		"riddle" : ["Once you enter you'll exit somehwere else", "You have no control over me you only have what you're delt", "I must stay my course, there is no other way", "Unless you want to die on this day"],
+		"hint" : ""
+	},
+	"r27" :{
+		"id" : "r27",
+		"answer" : "TV",
+		"riddle" : ["What I show you is technically not real", "But, tell that to your emotions as I spin them on a wheel", "Use to much and you'll turn to a zombie", "but when used right your 'niscience' may someday be preceded by 'omni'"],
+		"hint" : ""
+	},
+	"r28" :{
+		"id" : "r28",
+		"answer" : "Escalator",
+		"riddle" : ["Even when broken I'm usefull you'll see", "Just by another name you'd know me", "Once you're in line I'll move you with care", "Your load and more I can easily bear"],
+		"hint" : ""
+	},
+	"r29" :{
+		"id" : "r29",
+		"answer" : "Gate",
+		"riddle" : ["Sometimes I'm at the begninning", "Sometimes I'm at the end", "To get through me you'll need to be a friend", "because my purpose is to control", "Around me it's realatively impossible to go"],
+		"hint" : ""
+	},
+	"r30" :{
+		"id" : "r30",
+		"answer" : "Window",
+		"riddle" : ["Wether I'm open or closed you can still see", "Though my purpose is to seperate", " you'll agree", "When you have me", "the more connected to the outside you'll be"],
+		"hint" : ""
+	},
+	"r31" :{
+		"id" : "r31",
+		"answer" : "Advertisement",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r32" :{
+		"id" : "r32",
+		"answer" : "Movie",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r33" :{
+		"id" : "r33",
+		"answer" : "seat",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r34" :{
+		"id" : "r34",
+		"answer" : "Priority",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r35" :{
+		"id" : "r35",
+		"answer" : "Age",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r36" :{
+		"id" : "r36",
+		"answer" : "Death",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r37" :{
+		"id" : "r37",
+		"answer" : "Clock",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r38" :{
+		"id" : "r38",
+		"answer" : "Edge",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r39" :{
+		"id" : "r39",
+		"answer" : "Love",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r40" :{
+		"id" : "r40",
+		"answer" : "Maze",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r41" :{
+		"id" : "r41",
+		"answer" : "Gossip",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r42" :{
+		"id" : "r42",
+		"answer" : "conclusion",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r43" :{
+		"id" : "r43",
+		"answer" : "abandon",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r44" :{
+		"id" : "r44",
+		"answer" : "belongings",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r45" :{
+		"id" : "r45",
+		"answer" : "benefits",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r46" :{
+		"id" : "r46",
+		"answer" : "bill",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r47" :{
+		"id" : "r47",
+		"answer" : "breach",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r48" :{
+		"id" : "r48",
+		"answer" : "breakthrough",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r49" :{
+		"id" : "r49",
+		"answer" : "recipe",
+		"riddle" : [""],
+		"hint" : ""
+	},
+	"r50" :{
+		"id" : "r50",
+		"answer" : "swing",
+		"riddle" : [""],
+		"hint" : ""
+	}
+
+}

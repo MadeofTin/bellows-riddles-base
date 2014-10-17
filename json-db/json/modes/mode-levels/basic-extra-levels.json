@@ -1,0 +1,19 @@
+{
+  "l-bp-1" : {
+    "parent" : "start",
+    "default-background-img" : "",
+    "number-of-riddles" : 5,
+    "riddles" : ["r16", "r17", "r18", "r19", "r20"]
+  },
+  "l-bp-2" : {
+    "parent" : "l-bp-1",
+    "default-background-img" : "",
+    "number-of-riddles" : 10,
+    "riddles" : ["r21", "r22", "r23", "r24", "r25", "r26", "r27", "r28", "r29","r30"]
+    
+  }
+  
+}
+  
+  
+  

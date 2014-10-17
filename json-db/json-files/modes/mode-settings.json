@@ -1,8 +1,0 @@
-{
-  "modes" : {
-    "basic" : {
-      "unlock" : 0,
-      "levels" : "basic-levels.json"
-    }
-  }
-}
