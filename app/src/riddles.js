@@ -1,5 +1,12 @@
 /** @jsx React.DOM */
 
+var Parse = require('parse').Parse;
+Parse.initialize("TcZ80EiPLEGfv5mV3I6boYmPwb0PL0iTL0P0QR32", "jnh4IUAeF8r23K0nKvcX0bNbKyoptQ8ZcGYzjqsK");
+$ = require('jquery');
+var React = require('react');
+
+require('./styles.css')
+
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
 

@@ -4,10 +4,10 @@
   "description": "Get started with building React apps",
   "repository": "",
   "dependencies": {
-    "parse": "petehunt/parsesdk-isomorphic",
-    "react": "~0.8",
-    "ReactHack": "petehunt/reacthack-core",
-    "showdown": "petehunt/showdown"
+    "react": "~0.8.0",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.2.0",
+    "parse": "petehunt/parsesdk-isomorphic"
   },
   "devDependencies": {
     "jsx-loader": "~0.0.0",
@@ -17,7 +17,7 @@
     "style-loader": "~0.6.0"
   },
   "scripts": {
-    "start": "webpack --watch --debug src/main.js build/main.js"
+    "start": "webpack --watch --debug src/riddles.js build/riddles.js"
   },
   "author": "Pete Hunt",
   "license": "Apache 2"
