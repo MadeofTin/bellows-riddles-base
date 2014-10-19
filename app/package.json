@@ -1,8 +1,8 @@
 {
-  "name": "ReactHack",
-  "version": "0.0.2",
+  "name": "BellowsRiddles",
+  "version": "0.0.0",
   "description": "Get started with building React apps",
-  "repository": "",
+  "repository": "Tinmen/bellows-riddles-base",
   "dependencies": {
     "react": "~0.8.0",
     "jquery": "~2.1.1",

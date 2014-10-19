@@ -16,10 +16,11 @@ Steps for installing and building this app are as follows.
 
 After you have a git clone of the repo, run the following commands:
 
+	cd app
     npm install
     npm start
 
-This will generate the ``build`` directory.
+This will generate the ``build`` directory which has all the combined javascript libraries.
 
 ### Serving
 
