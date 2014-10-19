@@ -1,5 +1,7 @@
 # Animations
 
+## not implemented this is for the Future.
+
 This is where the animations are defined for the "reanimating" the world. Since I have basically no assets yet It would be nice if it gracefully degraded or took a few types of images. I don't know what you would need to do to process on your end but the "format" progression would be. 
 
 * Just a Plain Image
@@ -12,8 +14,7 @@ They would play in a loop at each step in the Riddle proccess. Might be to ambit
 ### JSON Documentation
 
 ```
-"my-house" : # Level Name 
-    "step-1" # Each Step of the reveal
+not implemented
 ```
 
 Not sure what is good here. Should I make a hard requirement that there be the same number of steps as there is riddles in a level? I could just use the same image at first 15 times. Maybe I should write a testing suite to verify the JSON is formated right before I hit import. At first I can get it right but as it grows it might be harder to manage if I make a small change somewhere. I don't want to break your side of the app on accident.

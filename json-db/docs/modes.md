@@ -1,12 +1,27 @@
 # Mode Settings
 
 Mode settings defines the modes avaible.
-```
-"unlock" : means how many points you need to spend to unlock.
-"levels" : must point to a file in ./mode-levels that contains the level information
+
+```python
+"modes" : {
+    "basic" : #ID
+      "levels" : "/json/modes/basic-levels.json", # the path from the json-db directory
+      "riddle-background" : "/assets/levels/white-wood-texture.jpg" # the path from the json-db directory
+    },
 ```
 
-## Levels in mode have an ID Style guide
+## mode-levels
+
+### JSON Format
+```
+  "l-b-1" : {
+    "parent" : "start",       # The level that procedes it.
+    "number-of-riddles" : 5,
+    "riddles" : ["r1","r2","r3","r4","r5"]
+  },
+```
+
+##### Style guide to level IDs
 
 Basic mode is `l-1`. All other modes have an addition space inbetween `l-sci-1`.
 The `l` designates it as a level object.

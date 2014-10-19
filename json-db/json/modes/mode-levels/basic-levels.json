@@ -1,0 +1,14 @@
+{
+  "l-b-1" : {
+    "parent" : "start",
+    "attribution" : "",
+    "number-of-riddles" : 5,
+    "riddles" : ["r1","r2","r3","r4","r5"]
+  },
+  "l-b-2" : {
+    "parent" : "l-b-1",
+    "attribution" : "",
+    "number-of-riddles" : 10,
+    "riddles" : ["r6", "r7", "r8", "r9", "r10", "r11", "r12", "r13", "r14", "r15"]
+  }
+} 
