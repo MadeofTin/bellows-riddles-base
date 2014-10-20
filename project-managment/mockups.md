@@ -1,10 +1,8 @@
 # Mockups
 
-I really want to focus on athestics. Minimal UI. Eventually I would love for it to have a [Godus](https://www.google.com.tw/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAA&url=http%3A%2F%2Fstore.steampowered.com%2Fapp%2F232810%2F&ei=IzE7VPrZF5eD8gWSnILYCQ&usg=AFQjCNFBSD1wmZGiBe4PLBOTC1B26JdlRQ) feel. Where there is an actual world that does stuff and each riddle level you solve improves your people.
+I really want to focus on athestics. Minimal UI. People who like riddles I think are closer to artists and so I want to make it an 'artistic' game. Like win an art or design award level. I have high hopes... but, actually don't care about awards. I care about adding the the users experiance.
 
-But.... that is a lot more work than we need to at the moment. So, I think doing strait images and then doing just animation mp4s would have a similar effect. Right now I don't have many assets but really want to find someone who could make something awesome feeling. Like win an art award awesome feeling. I have high hopes...
-
-You think it would work if we could start with just an image and then move to an animated movie playing in the background. For the world, level, and riddle view. Real simple animations I think. That repeat. I'll put more about what kind of style I am looking for in the [branding.md](/branding.md)
+You think it would work if we could start with just an image and then move to an animated movie playing in the background. For the world, level, and riddle view. Real simple animations I think. I'll put more about what kind of style I am looking for in the [branding.md](/branding.md)
 
 https://github.com/Tinmen/bellows-riddles-base/blob/master/assets/mockups/pngs/start-screen-needs-update.png
 ## Mockups index
