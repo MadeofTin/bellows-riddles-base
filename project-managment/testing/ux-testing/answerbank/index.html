@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bare - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    
+    .iphone {
+        width:250px;
+        position: relative;
+    }
+    
+    .answer-bank {
+        position: relative;
+        margin: auto;
+        width: 193px;
+        height: 115px;
+        background-color: #eeeeee;
+        /*outline: solid #444444 1px;*/
+        top: -414px;
+        left: -11px;
+        overflow-y: scroll;
+    }
+    
+    .suggests-btn {
+      font-size: 11px;
+      margin-top: 3px;
+      padding: 5px;
+    }
+    
+    .functions .suggests-btn {
+      border: none;
+      background-color: transparent;
+    }
+    </style>
+
+<script>
+   // Could put some script here I guess
+</script>
+
+</head>
+
+<body>
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>Testing UX of RiddleBank Answers</h1>
+                <p class="lead">How small can we make a large list of choices pretty and usable?</p>
+                <hr/>
+                <p> This is being tested with a list of 50 words.</p>
+                <img class="iphone" src="../../../assets/mockups/pngs/riddle.png"/>
+                <div class="answer-bank">
+                <script>
+                     // Yes this isn't safe... but whatever.
+                     // It is Just for testing. It is a file on my Google storage I made public.
+                     // How easy would it be to make it so it would be secure?
+                    var riddlesRaw = $.getJSON("http://storage.googleapis.com/bellows-github/testing/riddles-14-10-14.json");
+                    
+                    var riddles = $.parseJSON(riddlesRaw);
+                    
+                    alert (riddles.id === 'r1') // This didn't work... I have know idea what I am doing
+                    // It would be nice if javascript built these so we could test any amount of words we wanted. Just pulled from the DB. A function that took a level as an argument and built the following code. I just hand did these 50 because it would have taken me longer to figure out the javascript then to just do it by hand.
+                    
+                </script>
+                <button type="button" class="suggests-btn btn btn-default">Tommorow</button>
+                <button type="button" class="suggests-btn btn btn-default">Courage</button>
+                <button type="button" class="suggests-btn btn btn-default">Enemies</button>
+                <button type="button" class="suggests-btn btn btn-default">Diet</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Knowledge</button>
+                <button type="button" class="suggests-btn btn btn-default">Race</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Truth</button>
+                <button type="button" class="suggests-btn btn btn-default">Cellphone</button>
+                <button type="button" class="suggests-btn btn btn-default">Exit</button>
+                <button type="button" class="suggests-btn btn btn-default">Pride</button>
+                <button type="button" class="suggests-btn btn btn-default">Pockets</button>
+                <button type="button" class="suggests-btn btn btn-default">Travel</button>
+                <button type="button" class="suggests-btn btn btn-default">Cold</button>
+                <div class="functions">
+                    <button type="button" class="suggests-btn btn btn-default">A->Z</button>
+                    <button type="button" class="suggests-btn btn btn-default">Z->A</button>
+                    <button type="button" class="suggests-btn btn btn-default">⤮</button>
+                </div>
+                </div>
+                
+                
+                <p> This is being tested with a list of 50 words.</p>
+                <img class="iphone" src="../../../assets/mockups/pngs/riddle.png"/>
+                <div class="answer-bank">
+                <script>
+                     // Yes this isn't safe... but whatever.
+                     // It is Just for testing. It is a file on my Google storage I made public.
+                     // How easy would it be to make it so it would be secure?
+                    var riddlesRaw = $.getJSON("http://storage.googleapis.com/bellows-github/testing/riddles-14-10-14.json");
+                    
+                    var riddles = $.parseJSON(riddlesRaw);
+                    
+                    alert (riddles.id === 'r1') // This didn't work... I have know idea what I am doing
+                    // It would be nice if javascript built these so we could test any amount of words we wanted. Just pulled from the DB. A function that took a level as an argument and built the following code. I just hand did these 50 because it would have taken me longer to figure out the javascript then to just do it by hand.
+                    
+                </script>
+                <button type="button" class="suggests-btn btn btn-default">Tommorow</button>
+                <button type="button" class="suggests-btn btn btn-default">Courage</button>
+                <button type="button" class="suggests-btn btn btn-default">Enemies</button>
+                <button type="button" class="suggests-btn btn btn-default">Diet</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Knowledge</button>
+                <button type="button" class="suggests-btn btn btn-default">Race</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Truth</button>
+                <button type="button" class="suggests-btn btn btn-default">Cellphone</button>
+                <button type="button" class="suggests-btn btn btn-default">Exit</button>
+                <button type="button" class="suggests-btn btn btn-default">Pride</button>
+                <button type="button" class="suggests-btn btn btn-default">Pockets</button>
+                <button type="button" class="suggests-btn btn btn-default">Travel</button>
+                <button type="button" class="suggests-btn btn btn-default">Cold</button>
+                <button type="button" class="suggests-btn btn btn-default">Darkness</button>
+                <button type="button" class="suggests-btn btn btn-default">Light</button>
+                <button type="button" class="suggests-btn btn btn-default">Ghost</button>
+                <button type="button" class="suggests-btn btn btn-default">Happiness</button>
+                <button type="button" class="suggests-btn btn btn-default">Technology</button>
+                <button type="button" class="suggests-btn btn btn-default">Notes</button>
+                <button type="button" class="suggests-btn btn btn-default">Train</button>
+                <button type="button" class="suggests-btn btn btn-default">TV</button>
+                <button type="button" class="suggests-btn btn btn-default">Escalator</button>
+                <button type="button" class="suggests-btn btn btn-default">Gate</button>
+                <button type="button" class="suggests-btn btn btn-default">Window</button>
+                <button type="button" class="suggests-btn btn btn-default">Advertisement</button>
+                <button type="button" class="suggests-btn btn btn-default">Movie</button>
+                <button type="button" class="suggests-btn btn btn-default">Seat</button>
+                <button type="button" class="suggests-btn btn btn-default">Age</button>
+                <button type="button" class="suggests-btn btn btn-default">Death</button>
+                <button type="button" class="suggests-btn btn btn-default">Clock</button>
+                <button type="button" class="suggests-btn btn btn-default">Edge</button>
+                <button type="button" class="suggests-btn btn btn-default">Love</button>
+                <button type="button" class="suggests-btn btn btn-default">Maze</button>
+                <button type="button" class="suggests-btn btn btn-default">Gossip</button>
+                <button type="button" class="suggests-btn btn btn-default">Conclusion</button>
+                <button type="button" class="suggests-btn btn btn-default">Abandon </button>
+                <button type="button" class="suggests-btn btn btn-default">Belongings</button>
+                <button type="button" class="suggests-btn btn btn-default">Benefits</button>
+                <button type="button" class="suggests-btn btn btn-default">bill</button>
+                <button type="button" class="suggests-btn btn btn-default">breach</button>
+                <button type="button" class="suggests-btn btn btn-default">breakthrough</button>
+                <button type="button" class="suggests-btn btn btn-default">recipe</button>
+                <button type="button" class="suggests-btn btn btn-default">swing</button>
+                <div class="functions">
+                    <button type="button" class="suggests-btn btn btn-default">A->Z</button>
+                    <button type="button" class="suggests-btn btn btn-default">Z->A</button>
+                    <button type="button" class="suggests-btn btn btn-default">⤮</button>
+                </div>
+                
+                </div>
+                
+                <p> This is being tested with a list of 100 words.</p>
+                <img class="iphone" src="../../../assets/mockups/pngs/riddle.png"/>
+                <div class="answer-bank">
+                <script>
+                     // Yes this isn't safe... but whatever.
+                     // It is Just for testing. It is a file on my Google storage I made public.
+                     // How easy would it be to make it so it would be secure?
+                    var riddlesRaw = $.getJSON("http://storage.googleapis.com/bellows-github/testing/riddles-14-10-14.json");
+                    
+                    var riddles = $.parseJSON(riddlesRaw);
+                    
+                    alert (riddles.id === 'r1') // This didn't work... I have know idea what I am doing
+                    // It would be nice if javascript built these so we could test any amount of words we wanted. Just pulled from the DB. A function that took a level as an argument and built the following code. I just hand did these 50 because it would have taken me longer to figure out the javascript then to just do it by hand.
+                    
+                </script>
+                <button type="button" class="suggests-btn btn btn-default">Tommorow</button>
+                <button type="button" class="suggests-btn btn btn-default">Courage</button>
+                <button type="button" class="suggests-btn btn btn-default">Enemies</button>
+                <button type="button" class="suggests-btn btn btn-default">Diet</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Knowledge</button>
+                <button type="button" class="suggests-btn btn btn-default">Race</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Truth</button>
+                <button type="button" class="suggests-btn btn btn-default">Cellphone</button>
+                <button type="button" class="suggests-btn btn btn-default">Exit</button>
+                <button type="button" class="suggests-btn btn btn-default">Pride</button>
+                <button type="button" class="suggests-btn btn btn-default">Pockets</button>
+                <button type="button" class="suggests-btn btn btn-default">Travel</button>
+                <button type="button" class="suggests-btn btn btn-default">Cold</button>
+                <button type="button" class="suggests-btn btn btn-default">Darkness</button>
+                <button type="button" class="suggests-btn btn btn-default">Light</button>
+                <button type="button" class="suggests-btn btn btn-default">Ghost</button>
+                <button type="button" class="suggests-btn btn btn-default">Happiness</button>
+                <button type="button" class="suggests-btn btn btn-default">Technology</button>
+                <button type="button" class="suggests-btn btn btn-default">Notes</button>
+                <button type="button" class="suggests-btn btn btn-default">Train</button>
+                <button type="button" class="suggests-btn btn btn-default">TV</button>
+                <button type="button" class="suggests-btn btn btn-default">Escalator</button>
+                <button type="button" class="suggests-btn btn btn-default">Gate</button>
+                <button type="button" class="suggests-btn btn btn-default">Window</button>
+                <button type="button" class="suggests-btn btn btn-default">Advertisement</button>
+                <button type="button" class="suggests-btn btn btn-default">Movie</button>
+                <button type="button" class="suggests-btn btn btn-default">Seat</button>
+                <button type="button" class="suggests-btn btn btn-default">Age</button>
+                <button type="button" class="suggests-btn btn btn-default">Death</button>
+                <button type="button" class="suggests-btn btn btn-default">Clock</button>
+                <button type="button" class="suggests-btn btn btn-default">Edge</button>
+                <button type="button" class="suggests-btn btn btn-default">Love</button>
+                <button type="button" class="suggests-btn btn btn-default">Maze</button>
+                <button type="button" class="suggests-btn btn btn-default">Gossip</button>
+                <button type="button" class="suggests-btn btn btn-default">Conclusion</button>
+                <button type="button" class="suggests-btn btn btn-default">Abandon </button>
+                <button type="button" class="suggests-btn btn btn-default">Belongings</button>
+                <button type="button" class="suggests-btn btn btn-default">Benefits</button>
+                <button type="button" class="suggests-btn btn btn-default">bill</button>
+                <button type="button" class="suggests-btn btn btn-default">breach</button>
+                <button type="button" class="suggests-btn btn btn-default">breakthrough</button>
+                <button type="button" class="suggests-btn btn btn-default">recipe</button>
+                <button type="button" class="suggests-btn btn btn-default">swing</button>
+                <!-- This is where words Duplicate -->
+                <button type="button" class="suggests-btn btn btn-default">Tommorow</button>
+                <button type="button" class="suggests-btn btn btn-default">Courage</button>
+                <button type="button" class="suggests-btn btn btn-default">Enemies</button>
+                <button type="button" class="suggests-btn btn btn-default">Diet</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Knowledge</button>
+                <button type="button" class="suggests-btn btn btn-default">Race</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Truth</button>
+                <button type="button" class="suggests-btn btn btn-default">Cellphone</button>
+                <button type="button" class="suggests-btn btn btn-default">Exit</button>
+                <button type="button" class="suggests-btn btn btn-default">Pride</button>
+                <button type="button" class="suggests-btn btn btn-default">Pockets</button>
+                <button type="button" class="suggests-btn btn btn-default">Travel</button>
+                <button type="button" class="suggests-btn btn btn-default">Cold</button>
+                <button type="button" class="suggests-btn btn btn-default">Darkness</button>
+                <button type="button" class="suggests-btn btn btn-default">Light</button>
+                <button type="button" class="suggests-btn btn btn-default">Ghost</button>
+                <button type="button" class="suggests-btn btn btn-default">Happiness</button>
+                <button type="button" class="suggests-btn btn btn-default">Technology</button>
+                <button type="button" class="suggests-btn btn btn-default">Notes</button>
+                <button type="button" class="suggests-btn btn btn-default">Train</button>
+                <button type="button" class="suggests-btn btn btn-default">TV</button>
+                <button type="button" class="suggests-btn btn btn-default">Escalator</button>
+                <button type="button" class="suggests-btn btn btn-default">Gate</button>
+                <button type="button" class="suggests-btn btn btn-default">Window</button>
+                <button type="button" class="suggests-btn btn btn-default">Advertisement</button>
+                <button type="button" class="suggests-btn btn btn-default">Movie</button>
+                <button type="button" class="suggests-btn btn btn-default">Seat</button>
+                <button type="button" class="suggests-btn btn btn-default">Age</button>
+                <button type="button" class="suggests-btn btn btn-default">Death</button>
+                <button type="button" class="suggests-btn btn btn-default">Clock</button>
+                <button type="button" class="suggests-btn btn btn-default">Edge</button>
+                <button type="button" class="suggests-btn btn btn-default">Love</button>
+                <button type="button" class="suggests-btn btn btn-default">Maze</button>
+                <button type="button" class="suggests-btn btn btn-default">Gossip</button>
+                <button type="button" class="suggests-btn btn btn-default">Conclusion</button>
+                <button type="button" class="suggests-btn btn btn-default">Abandon </button>
+                <button type="button" class="suggests-btn btn btn-default">Belongings</button>
+                <button type="button" class="suggests-btn btn btn-default">Benefits</button>
+                <button type="button" class="suggests-btn btn btn-default">bill</button>
+                <button type="button" class="suggests-btn btn btn-default">breach</button>
+                <button type="button" class="suggests-btn btn btn-default">breakthrough</button>
+                <button type="button" class="suggests-btn btn btn-default">recipe</button>
+                <button type="button" class="suggests-btn btn btn-default">swing</button>
+                <!-- This is where words Duplicate -->
+                <button type="button" class="suggests-btn btn btn-default">Tommorow</button>
+                <button type="button" class="suggests-btn btn btn-default">Courage</button>
+                <button type="button" class="suggests-btn btn btn-default">Enemies</button>
+                <button type="button" class="suggests-btn btn btn-default">Diet</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Knowledge</button>
+                <button type="button" class="suggests-btn btn btn-default">Race</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Truth</button>
+                <button type="button" class="suggests-btn btn btn-default">Cellphone</button>
+                <button type="button" class="suggests-btn btn btn-default">Exit</button>
+                <button type="button" class="suggests-btn btn btn-default">Pride</button>
+                <button type="button" class="suggests-btn btn btn-default">Pockets</button>
+                <button type="button" class="suggests-btn btn btn-default">Travel</button>
+                <button type="button" class="suggests-btn btn btn-default">Cold</button>
+                <button type="button" class="suggests-btn btn btn-default">Darkness</button>
+                <button type="button" class="suggests-btn btn btn-default">Light</button>
+                <button type="button" class="suggests-btn btn btn-default">Ghost</button>
+                <button type="button" class="suggests-btn btn btn-default">Happiness</button>
+                <button type="button" class="suggests-btn btn btn-default">Technology</button>
+                <button type="button" class="suggests-btn btn btn-default">Notes</button>
+                <button type="button" class="suggests-btn btn btn-default">Train</button>
+                <button type="button" class="suggests-btn btn btn-default">TV</button>
+                <button type="button" class="suggests-btn btn btn-default">Escalator</button>
+                <button type="button" class="suggests-btn btn btn-default">Gate</button>
+                <button type="button" class="suggests-btn btn btn-default">Window</button>
+                <button type="button" class="suggests-btn btn btn-default">Advertisement</button>
+                <button type="button" class="suggests-btn btn btn-default">Movie</button>
+                <button type="button" class="suggests-btn btn btn-default">Seat</button>
+                <button type="button" class="suggests-btn btn btn-default">Age</button>
+                <button type="button" class="suggests-btn btn btn-default">Death</button>
+                <button type="button" class="suggests-btn btn btn-default">Clock</button>
+                <button type="button" class="suggests-btn btn btn-default">Edge</button>
+                <button type="button" class="suggests-btn btn btn-default">Love</button>
+                <button type="button" class="suggests-btn btn btn-default">Maze</button>
+                <button type="button" class="suggests-btn btn btn-default">Gossip</button>
+                <button type="button" class="suggests-btn btn btn-default">Conclusion</button>
+                <button type="button" class="suggests-btn btn btn-default">Abandon </button>
+                <button type="button" class="suggests-btn btn btn-default">Belongings</button>
+                <button type="button" class="suggests-btn btn btn-default">Benefits</button>
+                <button type="button" class="suggests-btn btn btn-default">bill</button>
+                <button type="button" class="suggests-btn btn btn-default">breach</button>
+                <button type="button" class="suggests-btn btn btn-default">breakthrough</button>
+                <button type="button" class="suggests-btn btn btn-default">recipe</button>
+                <button type="button" class="suggests-btn btn btn-default">swing</button>
+                <!-- end 100 Words-->
+                <div class="functions">
+                    <button type="button" class="suggests-btn btn btn-default">A->Z</button>
+                    <button type="button" class="suggests-btn btn btn-default">Z->A</button>
+                    <button type="button" class="suggests-btn btn btn-default">⤮</button>
+                </div>
+
+                </div>
+                <p> This is being tested with a list of 150 words.</p>
+                <img class="iphone" src="../../../assets/mockups/pngs/riddle.png"/>
+                <div class="answer-bank">
+                <script>
+                     // Yes this isn't safe... but whatever.
+                     // It is Just for testing. It is a file on my Google storage I made public.
+                     // How easy would it be to make it so it would be secure?
+                    var riddlesRaw = $.getJSON("http://storage.googleapis.com/bellows-github/testing/riddles-14-10-14.json");
+                    
+                    var riddles = $.parseJSON(riddlesRaw);
+                    
+                    alert (riddles.id === 'r1') // This didn't work... I have know idea what I am doing
+                    // It would be nice if javascript built these so we could test any amount of words we wanted. Just pulled from the DB. A function that took a level as an argument and built the following code. I just hand did these 50 because it would have taken me longer to figure out the javascript then to just do it by hand.
+                    
+                </script>
+                <button type="button" class="suggests-btn btn btn-default">Tommorow</button>
+                <button type="button" class="suggests-btn btn btn-default">Courage</button>
+                <button type="button" class="suggests-btn btn btn-default">Enemies</button>
+                <button type="button" class="suggests-btn btn btn-default">Diet</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Knowledge</button>
+                <button type="button" class="suggests-btn btn btn-default">Race</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Truth</button>
+                <button type="button" class="suggests-btn btn btn-default">Cellphone</button>
+                <button type="button" class="suggests-btn btn btn-default">Exit</button>
+                <button type="button" class="suggests-btn btn btn-default">Pride</button>
+                <button type="button" class="suggests-btn btn btn-default">Pockets</button>
+                <button type="button" class="suggests-btn btn btn-default">Travel</button>
+                <button type="button" class="suggests-btn btn btn-default">Cold</button>
+                <button type="button" class="suggests-btn btn btn-default">Darkness</button>
+                <button type="button" class="suggests-btn btn btn-default">Light</button>
+                <button type="button" class="suggests-btn btn btn-default">Ghost</button>
+                <button type="button" class="suggests-btn btn btn-default">Happiness</button>
+                <button type="button" class="suggests-btn btn btn-default">Technology</button>
+                <button type="button" class="suggests-btn btn btn-default">Notes</button>
+                <button type="button" class="suggests-btn btn btn-default">Train</button>
+                <button type="button" class="suggests-btn btn btn-default">TV</button>
+                <button type="button" class="suggests-btn btn btn-default">Escalator</button>
+                <button type="button" class="suggests-btn btn btn-default">Gate</button>
+                <button type="button" class="suggests-btn btn btn-default">Window</button>
+                <button type="button" class="suggests-btn btn btn-default">Advertisement</button>
+                <button type="button" class="suggests-btn btn btn-default">Movie</button>
+                <button type="button" class="suggests-btn btn btn-default">Seat</button>
+                <button type="button" class="suggests-btn btn btn-default">Age</button>
+                <button type="button" class="suggests-btn btn btn-default">Death</button>
+                <button type="button" class="suggests-btn btn btn-default">Clock</button>
+                <button type="button" class="suggests-btn btn btn-default">Edge</button>
+                <button type="button" class="suggests-btn btn btn-default">Love</button>
+                <button type="button" class="suggests-btn btn btn-default">Maze</button>
+                <button type="button" class="suggests-btn btn btn-default">Gossip</button>
+                <button type="button" class="suggests-btn btn btn-default">Conclusion</button>
+                <button type="button" class="suggests-btn btn btn-default">Abandon </button>
+                <button type="button" class="suggests-btn btn btn-default">Belongings</button>
+                <button type="button" class="suggests-btn btn btn-default">Benefits</button>
+                <button type="button" class="suggests-btn btn btn-default">bill</button>
+                <button type="button" class="suggests-btn btn btn-default">breach</button>
+                <button type="button" class="suggests-btn btn btn-default">breakthrough</button>
+                <button type="button" class="suggests-btn btn btn-default">recipe</button>
+                <button type="button" class="suggests-btn btn btn-default">swing</button>
+                <button type="button" class="suggests-btn btn btn-default">Tommorow</button>
+                <button type="button" class="suggests-btn btn btn-default">Courage</button>
+                <button type="button" class="suggests-btn btn btn-default">Enemies</button>
+                <button type="button" class="suggests-btn btn btn-default">Diet</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Knowledge</button>
+                <button type="button" class="suggests-btn btn btn-default">Race</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Truth</button>
+                <button type="button" class="suggests-btn btn btn-default">Cellphone</button>
+                <button type="button" class="suggests-btn btn btn-default">Exit</button>
+                <button type="button" class="suggests-btn btn btn-default">Pride</button>
+                <button type="button" class="suggests-btn btn btn-default">Pockets</button>
+                <button type="button" class="suggests-btn btn btn-default">Travel</button>
+                <button type="button" class="suggests-btn btn btn-default">Cold</button>
+                <button type="button" class="suggests-btn btn btn-default">Darkness</button>
+                <button type="button" class="suggests-btn btn btn-default">Light</button>
+                <button type="button" class="suggests-btn btn btn-default">Ghost</button>
+                <button type="button" class="suggests-btn btn btn-default">Happiness</button>
+                <button type="button" class="suggests-btn btn btn-default">Technology</button>
+                <button type="button" class="suggests-btn btn btn-default">Notes</button>
+                <button type="button" class="suggests-btn btn btn-default">Train</button>
+                <button type="button" class="suggests-btn btn btn-default">TV</button>
+                <button type="button" class="suggests-btn btn btn-default">Escalator</button>
+                <button type="button" class="suggests-btn btn btn-default">Gate</button>
+                <button type="button" class="suggests-btn btn btn-default">Window</button>
+                <button type="button" class="suggests-btn btn btn-default">Advertisement</button>
+                <button type="button" class="suggests-btn btn btn-default">Movie</button>
+                <button type="button" class="suggests-btn btn btn-default">Seat</button>
+                <button type="button" class="suggests-btn btn btn-default">Age</button>
+                <button type="button" class="suggests-btn btn btn-default">Death</button>
+                <button type="button" class="suggests-btn btn btn-default">Clock</button>
+                <button type="button" class="suggests-btn btn btn-default">Edge</button>
+                <button type="button" class="suggests-btn btn btn-default">Love</button>
+                <button type="button" class="suggests-btn btn btn-default">Maze</button>
+                <button type="button" class="suggests-btn btn btn-default">Gossip</button>
+                <button type="button" class="suggests-btn btn btn-default">Conclusion</button>
+                <button type="button" class="suggests-btn btn btn-default">Abandon </button>
+                <button type="button" class="suggests-btn btn btn-default">Belongings</button>
+                <button type="button" class="suggests-btn btn btn-default">Benefits</button>
+                <button type="button" class="suggests-btn btn btn-default">bill</button>
+                <button type="button" class="suggests-btn btn btn-default">breach</button>
+                <button type="button" class="suggests-btn btn btn-default">breakthrough</button>
+                <button type="button" class="suggests-btn btn btn-default">recipe</button>
+                <button type="button" class="suggests-btn btn btn-default">swing</button>
+                <button type="button" class="suggests-btn btn btn-default">Tommorow</button>
+                <button type="button" class="suggests-btn btn btn-default">Courage</button>
+                <button type="button" class="suggests-btn btn btn-default">Enemies</button>
+                <button type="button" class="suggests-btn btn btn-default">Diet</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Knowledge</button>
+                <button type="button" class="suggests-btn btn btn-default">Race</button>
+                <button type="button" class="suggests-btn btn btn-default">Fear</button>
+                <button type="button" class="suggests-btn btn btn-default">Truth</button>
+                <button type="button" class="suggests-btn btn btn-default">Cellphone</button>
+                <button type="button" class="suggests-btn btn btn-default">Exit</button>
+                <button type="button" class="suggests-btn btn btn-default">Pride</button>
+                <button type="button" class="suggests-btn btn btn-default">Pockets</button>
+                <button type="button" class="suggests-btn btn btn-default">Travel</button>
+                <button type="button" class="suggests-btn btn btn-default">Cold</button>
+                <button type="button" class="suggests-btn btn btn-default">Darkness</button>
+                <button type="button" class="suggests-btn btn btn-default">Light</button>
+                <button type="button" class="suggests-btn btn btn-default">Ghost</button>
+                <button type="button" class="suggests-btn btn btn-default">Happiness</button>
+                <button type="button" class="suggests-btn btn btn-default">Technology</button>
+                <button type="button" class="suggests-btn btn btn-default">Notes</button>
+                <button type="button" class="suggests-btn btn btn-default">Train</button>
+                <button type="button" class="suggests-btn btn btn-default">TV</button>
+                <button type="button" class="suggests-btn btn btn-default">Escalator</button>
+                <button type="button" class="suggests-btn btn btn-default">Gate</button>
+                <button type="button" class="suggests-btn btn btn-default">Window</button>
+                <button type="button" class="suggests-btn btn btn-default">Advertisement</button>
+                <button type="button" class="suggests-btn btn btn-default">Movie</button>
+                <button type="button" class="suggests-btn btn btn-default">Seat</button>
+                <button type="button" class="suggests-btn btn btn-default">Age</button>
+                <button type="button" class="suggests-btn btn btn-default">Death</button>
+                <button type="button" class="suggests-btn btn btn-default">Clock</button>
+                <button type="button" class="suggests-btn btn btn-default">Edge</button>
+                <button type="button" class="suggests-btn btn btn-default">Love</button>
+                <button type="button" class="suggests-btn btn btn-default">Maze</button>
+                <button type="button" class="suggests-btn btn btn-default">Gossip</button>
+                <button type="button" class="suggests-btn btn btn-default">Conclusion</button>
+                <button type="button" class="suggests-btn btn btn-default">Abandon </button>
+                <button type="button" class="suggests-btn btn btn-default">Belongings</button>
+                <button type="button" class="suggests-btn btn btn-default">Benefits</button>
+                <button type="button" class="suggests-btn btn btn-default">bill</button>
+                <button type="button" class="suggests-btn btn btn-default">breach</button>
+                <button type="button" class="suggests-btn btn btn-default">breakthrough</button>
+                <button type="button" class="suggests-btn btn btn-default">recipe</button>
+                <button type="button" class="suggests-btn btn btn-default">swing</button>
+                <!-- end 150 Words-->
+                <div class="functions">
+                    <button type="button" class="suggests-btn btn btn-default">A->Z</button>
+                    <button type="button" class="suggests-btn btn btn-default">Z->A</button>
+                    <button type="button" class="suggests-btn btn btn-default">⤮</button>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
