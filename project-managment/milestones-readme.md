@@ -22,7 +22,7 @@ I want to publish as soon as there is something that is viable to use because I 
 Version numbers are a goal to reach a milestone that answers certain questions about the app.
 
 ###### Goal
-A published release is actually something you count down to rather than count up. Your goal is to get there not to track the linear progression. If counting up with your versions while trying to think "counting down" you get longer and longer version numbers. 0.9.12.4.Not.helpful...  
+A published release is actually something you count down to rather than count up. Your goal is to get there not to track the linear progression. If counting up with your versions while trying to think "counting down" you get longer and longer version numbers. 0.9.12.4.Not.helpful... It also would be nice to have a feeling of progression.
  
 Example 
 ```
