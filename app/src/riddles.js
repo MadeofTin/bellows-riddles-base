@@ -315,7 +315,7 @@ var RiddlesApp = React.createClass({
     this.setState({user: Parse.User.current()});
 
     $.ajax({
-      url: '../json-db/json/riddles/riddles.json',
+      url: './json/riddles/riddles.json',
       dataType: 'json',
       success: function(data) {
         this.setState({riddles: data, startupPercent:100});
